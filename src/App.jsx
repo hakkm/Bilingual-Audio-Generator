@@ -3,13 +3,13 @@ import * as lamejs from "@breezystack/lamejs";
 
 export default function App() {
   const [text, setText] = useState("");
-  const [selectedLang, setSelectedLang] = useState("fr-FR");
+  const [selectedLang, setSelectedLang] = useState("fi-FI");
   const [isGenerating, setIsGenerating] = useState(false);
   const [audioUrl, setAudioUrl] = useState(null);
 
   const languages = [
-    { code: "fr-FR", name: "French (France)" },
     { code: "fi-FI", name: "Finnish (Finland)" },
+    { code: "fr-FR", name: "French (France)" },
   ];
 
   // Split text by punctuation marks (commas, dots, question marks, exclamation marks, etc.)
